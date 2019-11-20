@@ -8,4 +8,6 @@
 
 def select_winner(passengers)
   # add the code snippet here!
+  name_for_suite_a = passengers.suite_a
+  if passengers.suite_a
 end

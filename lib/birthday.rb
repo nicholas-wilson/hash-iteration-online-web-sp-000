@@ -6,6 +6,11 @@
 
 def happy_birthday(birthday_kids)
   # add your code snippet here!
+  birthday_kids.each_index do |kid|
+    if birthday_kids[kid] <= 12
+      puts "Happy Birthday #{kid}!"
+    end
+  end
 end
 
 

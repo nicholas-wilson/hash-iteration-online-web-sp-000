@@ -11,4 +11,5 @@ def select_winner(passengers)
   name_for_suite_a = passengers.suite_a
   if name_for_suite_a.slice(0, 1).upcase == "A"
     return name_for_suite_a
+  end
 end
